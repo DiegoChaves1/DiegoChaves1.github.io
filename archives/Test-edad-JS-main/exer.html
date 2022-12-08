@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exer.css">
+    <title>EDAD</title>
+</head>
+<body>
+    <header>
+        <h1> VERIFICADOR DE EDAD </h1>
+
+    </header> 
+    <section>
+        <div>
+           <p>Año de nacimiento:
+                <input type="number" name="textano" id="textano" min="0"></input>
+           </p> 
+           <p>Sexo:
+            <input type="radio" name="radesex" id="masculino" checked> 
+            <label for="masc">Masculino</label>
+        
+            <input type="radio" name="radesex" id="feminino">
+            <label for="femi">Feminino</label>
+        </p>
+           <p>
+            <input type="button" value="VERIFICA" onclick="verificar()">
+           </p>
+           
+        </div>
+
+        <div id="res">
+
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; DiegoChaves </p>
+
+    </footer>
+    <script src="exer.js" ></script>
+</body>
+</html>

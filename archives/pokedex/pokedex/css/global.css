@@ -1,0 +1,18 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    cursor: url(pikachu_icon-icons.com_67535.png), auto;
+    }
+
+body {
+    background-color: #e5dede;
+    
+}
+
+content {
+    padding: 1rem;
+    background-color: #fff;
+    height: 100vh;
+}    
+

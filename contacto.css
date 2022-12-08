@@ -1,0 +1,51 @@
+.page{
+    margin-top: 200px;
+    color: #fff;
+}
+
+.contact-wrap {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page h1{
+    text-align: center;
+    font-size: 60px;
+
+}
+
+.page .contact-wrap .conhecimentos{
+    margin-right: 100px;
+}
+
+.con{
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.page .contact-wrap .dados{
+    margin-left:  100px;
+
+}
+
+.dados{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.conhecimentos{
+    line-height: 1.3;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(34, 92, 146, 0.719);
+    color: rgb(0, 0, 0);
+    font-family: "architects daughter" , Arial, Helvetica, sans-serif;   
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+}
+
+.foto {
+   
+    display: block;
+    margin: auto;
+    margin-top: 2cm;
+    margin-bottom: 1.5cm;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(0.7);
+
+    
+}
